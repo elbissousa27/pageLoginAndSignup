@@ -5,32 +5,58 @@
 }
 
 .main{
-    background-color: blue;
+    background-color: #000524;
     height: 100vh;
     width: 100vw;
-    float: left;
-    position: relative;
-}
-
-.color1{
-    background-color: black;
-    height: 100vh;
-    width: 50vw;
-    float: left;
     display: flex;
     align-items: center;
-}
-
-.box{
-    background-color: red;
-    height: 50vh;
-    width: 30vw;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-.cadastro{
-    margin-top: 10px;
+.container{
+    background-color: #010937;
+    padding: 40px;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-top: 25px;
+    color: #000524;
+    height: 5vh;
+    width: 20vw;
+    border: none;
+    border-radius: 3px;
+}
+
+.button{
+    color: #000;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #a6a6a6;
+    transition: 0.2s;
+}
+
+p, a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 28px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #a6a6a6;
+    transition: 0.2s;
 }
