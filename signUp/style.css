@@ -60,3 +60,7 @@ a:hover{
     color: #a6a6a6;
     transition: 0.2s;
 }
+
+label:has([type="checkbox"]:checked){
+    color:red;
+}
