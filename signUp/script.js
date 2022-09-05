@@ -1,5 +1,5 @@
-let color = document.querySelector('.color');
+let color = document.querySelector('.button');
 
-color.addEventListener('click', function text(){
-    window.alert("Olá, mundo!")
+color.addEventListener('click', () =>  {
+    window.alert("Cadastro realizado com sucesso!")
 });
